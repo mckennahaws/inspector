@@ -1,0 +1,1 @@
+document.querySelector('header > h1').innerText= "Inspector Clouseau"
