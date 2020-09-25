@@ -4,9 +4,9 @@ body{
 }
 
 header{
-    background-image:url(../inspector/images/detective-pikachu-surprised-header.jpg)
+    background-image:url(../inspector/images/detective-pikachu-surprised-header.jpg);
     color: whitesmoke;
-    min-height: 215px;
+    height: 215px;
 }
 header h1, h2{
     margin-left: 3rem;
