@@ -3,19 +3,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inspector Clousseau</title>
-    <link href="css/styles.css" rel="stylesheet" type="text/css"/>
+    <link href="styles.css" rel="stylesheet" type="text/css"/>
 </head>
-<body>
+<body onresize="reDisplay()">
     <header>
-        <h1 id="company"></h1>
-        <h2 id="slogan"></h2>
+        <h1></h1>
+        <h2></h2>
     </header>
+    <div class="mainWrapper">
     <main>
-       
+        <h1>Inspector Clousseau</h1>
+       <h2>What I learned</h2>
+       <ul class="learningList">
+           <li>Display window properties</li>
+           <li>Display document properties</li>
+       </ul>
+
+       <h2>Window Properties</h2>
+       <p id="myWindow"></p>
+
+       <h2>Document Properties</h2>
+       <p id="myDocument"></p>
     </main>
+</div>
     <footer>
       <p>Assignment for DGM 2760 McKenna Spencer</p>  
     </footer>
-    <script type="text/Javascript" src="js/main.js"></script>
+    <script type="text/Javascript" src="main.js"></script>
 </body>
 </html>

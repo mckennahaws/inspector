@@ -1,0 +1,25 @@
+body{
+    max-width: 900px;
+    margin: auto;
+}
+
+header{
+    background-image:url(../inspector/detective-pikachu-surprised-header.jpg);
+    color: whitesmoke;
+    min-height: 215px;
+}
+header h1, h2{
+    margin-left: 3rem;
+}
+
+main{
+    margin-left: 3rem;
+    padding: 2%
+}
+div.mainWrapper{
+    background-color: rgb(163, 135, 103);
+}
+
+footer{
+   text-align: center;
+}
